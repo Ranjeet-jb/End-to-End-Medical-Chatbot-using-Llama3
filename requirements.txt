@@ -1,4 +1,10 @@
 sentence-transformers==2.2.2
-pinecone-client==3.0.0
-langchain==0.1.17
-flask==2.3.3
+langchain
+flask
+pypdf
+python-dotenv
+pinecone[grpc]
+langchain-pinecone
+langchain_community
+langchain_openai
+langchain_experimental

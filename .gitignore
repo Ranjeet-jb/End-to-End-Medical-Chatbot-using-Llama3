@@ -172,3 +172,13 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+.ipynb_checkpoints/
+.vscode/
+*.sqlite3
+*.tar.gz
+*.zip
+*.pickle
+*.pkl
+*.json
