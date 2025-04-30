@@ -9,5 +9,6 @@ langchain_community
 langchain_openai
 langchain_experimental
 together==1.5.5
+python-dotenv
 
 -e .
