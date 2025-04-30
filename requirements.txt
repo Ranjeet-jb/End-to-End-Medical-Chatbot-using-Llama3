@@ -1,4 +1,4 @@
-sentence-transformers==2.2.2
+sentence-transformers
 langchain
 flask
 pypdf
@@ -9,3 +9,5 @@ langchain_community
 langchain_openai
 langchain_experimental
 together==1.5.5
+
+-e .
