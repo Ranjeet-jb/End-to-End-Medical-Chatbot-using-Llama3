@@ -28,12 +28,12 @@ docsearch = PineconeVectorStore.from_existing_index(
     index_name=index_name,
 )
 
-retriever = docsearch.as_retriever(search_type="similarity", search_kwargs={"k":5})
+retriever = docsearch.as_retriever(search_type="similarity", search_kwargs={"k":7})
 
 TOGETHER_API_KEY = os.environ.get("TOGETHER_API_KEY")
 llm = Together(
     model="meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
-    temperature=0.4,
+    temperature=0.5,
     max_tokens=500,
     together_api_key=TOGETHER_API_KEY
 )
